@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+<title>Crafted Software</title>
+
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js" type="text/javascript" async=""></script>
+<!--<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>-->
+<script src="js/masonry.pkgd.min.js"></script>
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:400,700,300,100,900&amp;subset=latin">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+<style>
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Lato, arial;
+    font-weight: 100;
+    background-color: #E6E6E6;
+}
+
+.masonry {
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+.masonry .item {
+    float: left;
+    /*background: #D26;*/
+    /*border: 2px solid #333;*/
+    /*border-color: hsla(0, 0%, 0%, 0.5);*/
+    border-radius: 2px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.item.smallblock {
+    height: 241px;
+    width: 241px;
+    font-size: 30px;
+    padding: 15px;
+}
+
+.item.bigblock {
+    width: 502px;
+    height: 502px;
+    padding: 30px;
+
+    text-align: left;
+    font-size: 50px;
+    background-color: #4D4D4D;
+
+}
+
+.item.logo {
+    width: 241px;
+    height: 241px;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: #990000;
+}
+
+.item.lastblock {
+    width: 241px;
+    height: 241px;
+}
+
+.item.footer {
+    width: 1024px;
+    height: 241px;
+    background-color: #4D4D4D;
+
+}
+
+.item.footer p {
+    margin-left: 20px;
+}
+
+.item.footer h3 {
+    margin-left: 20px;
+}
+
+.item.header {
+    width: 1024px;
+    height: 100px;
+    font-size: 20px;
+    color: #990000;
+    font-weight: 400;
+    margin-top: 10px;
+    /*font-weight: bold;*/
+}
+
+.holder {
+    width: 100%;
+}
+
+.modal-body {
+    font-size: 25px;
+}
+
+.modal-header h4 {
+    font-size: 30px;
+}
+
+.item.smallblock.text {
+    background-color: #4D4D4D;
+}
+
+.item.smallblock.c {
+    background-image: url(img/annual-report-design.jpg);
+    background-size: contain;
+}
+
+.item.smallblock.d {
+    background-image: url(img/web-html.jpg);
+    background-size: contain;
+}
+
+.item.smallblock.g {
+    background-image: url(img/Brand-manual.jpg);
+    background-size: contain;
+}
+
+.item.smallblock.h {
+    background-image: url(img/corporate-brochure-design.jpg);
+    background-size: contain;
+}
+
+.item.lastblock.i {
+    background-image: url(img/brochure-design.jpg);
+    background-size: contain;
+}
+
+.menu {
+    position: relative;
+    float: left;
+    /*bottom: 13px;*/
+    /*font-family: 'Dancing Script', cursive;*/
+    /*font-weight: 400;*/
+    /*z-index: 3;*/
+}
+
+.menu ul {
+    list-style: none;
+    float: left;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.menu ul li {
+    display: inline-block;
+    text-align: center;
+    margin-right: 20px;
+    white-space: nowrap;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.menu ul li a:hover {
+    color: white;
+}
+
+.menu div ul li.current_page_item > a {
+    color: white;
+}
+
+.code:hover, .creative:hover, .deliverymethod:hover, .brand:hover, .service:hover, .color:hover {
+    opacity: 0.6;
+}
+
+.contactus {
+    float:right;
+}
+
+.item.header .logo{
+    background-color: #990000;
+    color: white;
+    width: 65px;
+    height: 65px;
+    float: left;
+}
+
+@media (min-width: 791px) and (max-width: 1050px) {
+    .masonry {
+        max-width: 780px;
+    }
+
+    .item.footer {
+        width: 765px;
+    }
+
+    .item.header {
+        width: 765px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 790px) {
+    .masonry {
+        max-width: 515px;
+    }
+
+    .item.smallblock {
+        height: 241px;
+        width: 241px;
+        background: green;
+    }
+
+    .item.bigblock {
+        width: 502px;
+        height: 502px;
+    }
+
+    .item.logo {
+        width: 502px;
+        height: 100px;
+    }
+
+    .item.lastblock {
+        width: 502px;
+        height: 100px;
+    }
+
+    .item.footer {
+        width: 502px;
+    }
+
+    .item.header {
+        width: 502px;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 512px) {
+    .masonry {
+        max-width: 500px;
+    }
+
+    .item.smallblock {
+        height: 100px;
+        width: 480px;
+        background: blue;
+    }
+
+    .item.lastblock {
+        width: 480px;
+        height: 100px;
+    }
+
+    .item.bigblock {
+        width: 480px;
+        height: 502px;
+    }
+
+    .item.logo {
+        width: 480px;
+        height: 100px;
+    }
+
+    .item.footer {
+        width: 480px;
+    }
+
+    .item.header {
+        width: 480px;
+    }
+}
+
+@media (max-width: 320px) {
+    .masonry {
+        max-width: 300px;
+    }
+
+    .item.lastblock {
+        width: 300px;
+        height: 100px;
+    }
+
+    .item.smallblock {
+        height: 100px;
+        width: 300px;
+        background: red;
+        font-size: 18px;
+    }
+
+    .item.bigblock {
+        width: 300px;
+        height: 502px;
+        font-size: 46px;
+    }
+
+    .item.logo {
+        width: 300px;
+        height: 100px;
+    }
+
+    .item.footer {
+        width: 300px;
+    }
+
+    .item.header {
+        width: 300px;
+    }
+}
+
+</style>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".code").click(function () {
+            $("#code").modal('show');
+        });
+
+        $(".creative").click(function () {
+            $("#creative").modal('show');
+        });
+
+        $(".deliverymethod").click(function () {
+            $("#deliverymethod").modal('show');
+        });
+
+        $(".brand").click(function () {
+            $("#brand").modal('show');
+        });
+
+        $(".service").click(function () {
+            $("#service").modal('show');
+        });
+
+        $(".color").click(function () {
+            $("#color").modal('show');
+        });
+    });
+
+</script>
+
+</head>
+<body>
+<div class="holder">
+    <div class="masonry js-masonry" data-masonry-options='{ "columnWidth": 251, "gutter": 10 }'>
+        <div class="item header ">
+            <div class="logo">
+                logo
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>Ethos</li>
+                    <li>Team</li>
+                    <li>Portfolio</li>
+                    <li>Design</li>
+                    <li>Web</li>
+                    <li>Development</li>
+                </ul>
+            </div>
+            <div class="contactus">
+                <img src="img/contact-us.jpg">
+            </div>
+        </div>
+        <div class="item logo">Logo</div>
+        <div class="item bigblock">A talented team
+            of Developers &
+            Designers, crafting
+            and delivering the
+            right solutions for
+            our clients.
+        </div>
+        <div class="item smallblock c">&nbsp;</div>
+        <div class="item smallblock d code">d</div>
+        <div class="item smallblock text creative">Creative
+            Solutions to
+            show your
+            Brand as the
+            best it can be.
+        </div>
+        <div class="item smallblock text deliverymethod">Lean, agile and fast - delivering in short meaningful
+            iterations.
+        </div>
+        <div class="item smallblock g brand"></div>
+        <div class="item smallblock h service"></div>
+        <div class="item lastblock i color"></div>
+        <div class="item footer">
+            <h3>Contact Us</h3>
+
+            <p><i class="fa fa-envelope-o"></i>&nbsp;&nbsp;info@craftedsoftware.co.za</p>
+
+            <p><i class="fa fa-phone"></i>&nbsp;&nbsp;011-123 4567</p>
+
+            <p><i class="fa fa-twitter"></i>&nbsp;&nbsp;@craftedsoftware</p>
+
+            <p><i class="fa fa-car"></i>&nbsp;&nbsp;11 The Place, Dowerglen, Edenvale, 1609</p>
+        </div>
+
+    </div>
+</div>
+<div id="code" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Our code</h4>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div id="creative" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Creativity</h4>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div id="deliverymethod" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">How we deliver</h4>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div id="brand" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Importance of brand</h4>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div id="service" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Our promise of service</h4>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div id="color" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Color</h4>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>
