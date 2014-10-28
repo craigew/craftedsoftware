@@ -1,0 +1,30 @@
+.recycle{
+    background-image: url("../img/recycle-keyboard.jpg");
+    background-size: cover;
+}
+
+.keyboard{
+    background-image: url("../img/keyboard.jpg");
+    background-size: cover;
+}
+
+.sustainable-code{
+    background-image: url("../img/sustainable-code.jpg");
+    background-size: cover;
+}
+
+.navy-blue{
+    background-color: #3c6c8c;
+}
+
+.dark-grey{
+    background-color: #4d4d4d;
+}
+
+.light-grey{
+    background-color: #808080;
+}
+
+.black{
+    background-color: black;
+}

@@ -1,0 +1,37 @@
+.bone{
+    background-image: url("../img/annual-report-design.jpg");
+    background-size: cover;
+}
+
+.shirt{
+    background-image: url("../img/fox.jpg");
+    background-size: cover;
+}
+
+.paragraph{
+    background-image: url("../img/fox.jpg");
+    background-size: cover;
+}
+
+.camera{
+    background-image: url("../img/camera.jpg");
+    background-size: cover;
+}
+
+.truck{
+    background-image: url("../img/henning-vito.jpg");
+    background-size: cover;
+}
+
+.magazine{
+    background-image: url("../img/pink-page-2.jpg");
+    background-size: cover;
+}
+
+.green-blue{
+    background-color: #176362;
+}
+
+.orange{
+    background-color: #f7931e;
+}

@@ -1,0 +1,31 @@
+.pam{
+    background-image: url("../img/Pam-Lansdell.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.craig{
+    background-image: url("../img/??.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.ux{
+    background-image: url("../img/UX.jpg");
+    background-size: cover;
+}
+
+.userexperience{
+    background-image: url("../img/userx.jpg");
+    background-size: cover;
+}
+
+.typography{
+    background-image: url("../img/typography.jpg");
+    background-size: cover;
+}
+
+.seasand{
+    background-image: url("../img/seasand.jpg");
+    background-size: cover;
+}
