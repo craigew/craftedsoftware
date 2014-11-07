@@ -1,0 +1,37 @@
+.graduates{
+    background-image: url("../img/graduates.jpg");
+    background-size: cover;
+}
+.pam-designer-lecturer{
+    background-image: url("../img/Pam-Lansdell4.jpg");
+    background-size: cover;
+}
+.bubbles{
+    background-image: url("../img/colour-pixel.jpg");
+    background-size: cover;
+}
+
+.purple{
+    background-color:#490073 ;
+}
+
+.orange{
+    background-color:#fbb03b ;
+}
+
+.yellow{
+    background-color: #d9e021;
+}
+.blue{
+    background-color: #00a28d;
+}
+
+.green{
+    background-color: #176362;
+}
+.grey{
+    background-color: #666666;
+}
+.item.bigblock {
+    background-color: #333333;
+}

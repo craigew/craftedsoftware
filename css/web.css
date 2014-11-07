@@ -1,0 +1,56 @@
+.fox-screen {
+    background-image: url("../img/fox-site.jpg");
+    background-size: cover;
+}
+
+.labels-screen {
+    background-image: url("../img/website.jpg");
+    background-size: cover;
+}
+
+.trolley {
+    background-image: url("../img/trolley.jpg");
+    background-size: cover;
+}
+
+.share {
+    background-image: url("../img/share.jpg");
+    background-size: cover;
+}
+
+.social-media {
+    background-image: url("../img/social-media-icon.jpg");
+    background-size: cover;
+}
+
+.green {
+    background-color: #00453c;
+}
+
+.light-green {
+    background-color: #176362;
+}
+
+.pink {
+    background-color: #8b002a;
+}
+
+@media only screen and (min-width : 250px) {
+    .item.tallblock {
+        font-size: 21px;
+    }
+
+    .item.wideblock {
+        font-size: 21px;
+    }
+}
+
+@media only screen and (min-width : 768px) {
+    .item.tallblock {
+        font-size: 25px;
+    }
+
+    .item.wideblock {
+        font-size: 25px;
+    }
+}

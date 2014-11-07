@@ -29,15 +29,15 @@ body {
     padding: 15px;
 }
 
-.item.tallblock{
-    height:492px;
+.item.tallblock {
+    height: 492px;
     width: 241px;
     font-size: 27px;
     padding: 15px;
 }
 
-.item.wideblock{
-    height:241px;
+.item.wideblock {
+    height: 241px;
     width: 492px;
     font-size: 27px;
     padding: 15px;
@@ -177,7 +177,7 @@ body {
     float: right;
 }
 
-.contactus img{
+.contactus img {
     height: 35px;
     margin-top: 15px
 }
@@ -206,9 +206,9 @@ body {
     opacity: 0.5;
 }
 
-
-
-
+#modal_contactus .modal-body {
+    font-size: 16px;
+}
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 250px) {
@@ -248,14 +248,14 @@ body {
         font-size: 18px;
     }
 
-    .item.tallblock{
-        height:200px;
+    .item.tallblock {
+        height: 200px;
         width: 300px;
         font-size: 18px;
     }
 
-    .item.wideblock{
-        height:200px;
+    .item.wideblock {
+        height: 200px;
         width: 300px;
         font-size: 18px;
     }
@@ -312,6 +312,10 @@ body {
     .item.smallblock.small-text {
         font-size: 15px;
     }
+
+    .item.img {
+        display: none;
+    }
 }
 
 /* Extra Small Devices, Phones */
@@ -334,13 +338,13 @@ body {
         height: 100px;
     }
 
-    .item.tallblock{
-        height:200px;
+    .item.tallblock {
+        height: 200px;
         width: 460px;
     }
 
-    .item.wideblock{
-        height:200px;
+    .item.wideblock {
+        height: 200px;
         width: 460px;
     }
 
@@ -385,14 +389,14 @@ body {
         height: 241px;
     }
 
-    .item.tallblock{
-        height:492px;
+    .item.tallblock {
+        height: 492px;
         width: 241px;
         font-size: 27px;
     }
 
-    .item.wideblock{
-        height:241px;
+    .item.wideblock {
+        height: 241px;
         width: 492px;
         font-size: 27px;
     }
@@ -449,8 +453,6 @@ body {
         color: #990000;
     }
 
-
-
     .item.header .logo {
         background-color: green;
         display: block;
@@ -482,6 +484,10 @@ body {
 
     .item.smallblock.small-text {
         font-size: 25px;
+    }
+
+    .item.img {
+        display: block;
     }
 
 }

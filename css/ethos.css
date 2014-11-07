@@ -1,0 +1,36 @@
+.wood-carving{
+    background-image: url("../img/wood-carving.jpg");
+    background-size: cover;
+}
+.weaver{
+    background-image: url("../img/weaver.jpg");
+    background-size: cover;
+}
+.pencils{
+    background-image: url("../img/pencils-bw.jpg");
+    background-size: cover;
+}
+.craft-tools{
+    background-image: url("../img/craft-tools.jpg");
+    background-size: cover;
+}
+.brushes{
+    background-image: url("../img/brushes.jpg");
+    background-size: cover;
+}
+.apple-mouse{
+    background-image: url("../img/apple-mouse.jpg");
+    background-size: cover;
+}
+.item.bigblock {
+    background-color: #4b4138;
+}
+.brown{
+    background-color: #736357;
+}
+.light-brown{
+    background-color: #736357;
+}
+.beige{
+    background-color: #998976;
+}
