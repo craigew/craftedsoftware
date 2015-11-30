@@ -2,10 +2,7 @@
     background-image: url("../img/graduates.jpg");
     background-size: cover;
 }
-.pam-designer-lecturer{
-    background-image: url("../img/Pam-Lansdell4.jpg");
-    background-size: cover;
-}
+
 .bubbles{
     background-image: url("../img/colour-pixel.jpg");
     background-size: cover;
@@ -29,8 +26,13 @@
 .green{
     background-color: #176362;
 }
+
 .grey{
     background-color: #666666;
+}
+
+.pink{
+    background-color: #d41e6a;
 }
 .item.bigblock {
     background-color: #333333;
